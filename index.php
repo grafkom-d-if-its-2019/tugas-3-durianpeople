@@ -29,8 +29,9 @@
     <canvas id="glcanvas" width="640" height="640">
         Browser Anda tidak mendukung HTML5 <code>&lt;canvas&gt;</code>.
     </canvas>
-    <script name="shader" data-src="vertex_advanced.glsl" data-type="vertex" data-version="v1"></script>
+    <script name="shader" data-src="vertex_offload.glsl" data-type="vertex" data-version="v1"></script>
     <script name="shader" data-src="fragment.glsl" data-type="fragment" data-version="v1"></script>
+    <script type="text/javascript" src="libs/gl-matrix-min.js"></script>
     <script type="text/javascript" src="libs/signals.js"></script>
     <script type="text/javascript" src="libs/glUtils.js"></script>
     <script type="text/javascript" src="index.js"></script>
